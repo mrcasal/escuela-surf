@@ -1,7 +1,8 @@
 FROM node:18-alpine
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm ci --legacy-peer-deps
 COPY . .
-EXPOSE 8080
-CMD [ "npm", "run", "serve" ]
+RUN npm run build
+EXPOSE 80
+CMD [ "npx", "serve", "-s", "dist" ]

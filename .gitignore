@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 .DS_Store
 node_modules
 /dist
@@ -165,4 +165,4 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
->>>>>>> 3626c704dcc215b5d9906d30f4aa17134c1c9cc7
+3626c704dcc215b5d9906d30f4aa17134c1c9cc7
