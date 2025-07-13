@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # escuela-surf
 
 ## Project setup
@@ -27,3 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# escuela-surf
+>>>>>>> 3626c704dcc215b5d9906d30f4aa17134c1c9cc7
